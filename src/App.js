@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import EmailHome from './components/EmailHome';
 import { BrowserRouter as Router, Routes ,Route } from 'react-router-dom';
 import './App.css';
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
+        <EmailHome />
         <Routes>
           <Route path='/' exact />
         </Routes>

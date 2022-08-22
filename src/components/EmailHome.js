@@ -1,7 +1,11 @@
-import React, {useState} from 'react';
+import React, {useState} from 'react'
 import {Link} from 'react-router-dom';
 
-function Navbar(){
+
+
+function EmailHome(){
+
+
   return(
     <>
     <nav className="navbar"> 
@@ -13,4 +17,4 @@ function Navbar(){
   )
 }
 
-export default Navbar;
+export default EmailHome;
