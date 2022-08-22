@@ -1,0 +1,77 @@
+
+/* Cope Icon On Nav Bar */
+.Mailer-Icon {
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+}
+
+/* Cope Icon Infinite Spin Animation */
+@media (prefers-reduced-motion: no-preference) {
+  .Mailer-Icon {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Nav Bar Section */
+.NavBar{
+  border-bottom: 1px solid hsla(0,0%,64.7%,.3) !important;
+}
+
+/* Form Section */
+.Form-Detail-Section{
+  text-align: center;
+}
+
+
+.CopePhone{
+  height: 600px;
+}
+
+
+
+  
+  /* Create two equal columns that floats next to each other */
+  .Column-One {
+    float: left;
+    width: 50%;
+    background-color: red;
+    /* height: 100vh;  */
+  }
+
+  .Column-Two{
+    float: right;
+    width: 50%;
+    /* height: 100vh;  */
+  }
+  
+  /* Clear floats after the columns */
+  .Home-Row {
+    grid-template-columns: auto auto;
+    width: 100%;
+    margin: auto;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  
+  .Home-Title{
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 60px;
+  }
+  .Home-SubTitle{
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+  }
