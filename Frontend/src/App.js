@@ -1,6 +1,6 @@
 import React from 'react';
 import EmailHome from './components/EmailHome';
-import { BrowserRouter as Router, Routes ,Route } from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 import './App.css';
 
 
@@ -9,9 +9,9 @@ function App() {
     <>
       <Router>
         <EmailHome />
-        <Routes>
+        {/* <Routes>
           <Route path='/' exact />
-        </Routes>
+        </Routes> */}
       </Router>
     </>
   );
