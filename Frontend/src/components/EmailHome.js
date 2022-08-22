@@ -45,11 +45,11 @@ class EmailHome extends React.Component {
           <Link to="/" className="navbar-logo">Cop</Link>
         </div>
         <form onSubmit={this.handleSubmit}>
-        <label>Enter your name:
+        <label>Enter Your Email:
           <input type="email" value={this.state.value} onChange={this.handleChange} />
         </label>
         
-        <button type="submit" value="Submit">Default</button>
+        <button type="submit" value="Submit">Submit</button>
       </form>
       </nav>
       </>
