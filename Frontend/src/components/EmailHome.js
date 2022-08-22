@@ -63,13 +63,23 @@ class EmailHome extends React.Component {
 
               {/* Title */}
               <h1 className="Home-Title">Subscribe To Healthier Thoughts</h1>
+              <img src="/images/CopeMailerIcon.png" className="Cope-Sub-Icon" alt="CopeLogo" />
 
               {/* Enter Detail Here */}
               <form onSubmit={this.handleSubmit}>
-                <p>Enter Your Email Adress Below</p>
-                  <input type="email" value={this.state.value} onChange={this.handleChange} />
-                
-                <button type="submit" value="Submit">Submit</button>
+                <p className="EnterEmail-Text">Enter Your Name & Email Adress Below</p>
+                <p className="NoSpam-Text">We'll never spam, share, or sell your information</p>
+
+                  <div className="Input-Container">
+                    {/* Name Input Section */}
+                    <input className="Name-Input" type="email" placeholder="Name"/>
+                    {/* Email Input Section */}
+                    <input className="Email-Input" type="email" placeholder="Email" value={this.state.value} onChange={this.handleChange} />
+
+                    {/* Submit Btn */}
+                    <button className="SubmitBtn" type="submit" value="Submit">Submit</button>
+                  </div>
+
               </form>
 
               {/* SubTitle */}

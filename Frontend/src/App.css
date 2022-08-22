@@ -66,12 +66,49 @@
     transform: translate(-50%, -50%);
   }
 
-  
+  /* Subscribe To Healthier Thoughts Title */
   .Home-Title{
     font-family: 'Rubik Dirt', cursive;
     font-size: 60px;
   }
+  /* Daily Doze SubTitle */
   .Home-SubTitle{
     font-family: 'Indie Flower', cursive;
-    font-size: 18px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  /* Enter Email Text */
+  .EnterEmail-Text{
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 19px;
+  }
+  .Cope-Sub-Icon{
+    margin-top: -20px;
+    width: 85px;
+    height: 75px;
+  }
+  .Input-Container{
+    display: grid;
+    place-items: center;
+  }
+  /* Name Input */
+  .Name-Input{
+    font-family: 'Jura', sans-serif;
+    color: #800080;
+  }
+  /* Email Input Box */
+  .Email-Input{
+    font-family: 'Jura', sans-serif;
+    color: #800080;
+    margin-top: 20px;
+  }
+  .SubmitBtn{
+    margin-top: 20px;
+  }
+  /* No Spam Text */
+  .NoSpam-Text{
+    font-size: 14px;
+    font-family: 'Jura', sans-serif;
   }
