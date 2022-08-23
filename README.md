@@ -37,7 +37,7 @@ This Application allows users to:
 
 - **React** is a free and open-source front-end JavaScript library for building user interfaces based on UI components.
 
-- To learn React, check out the [React documentation](https://reactjs.org/docs/getting-started.html).
+- To learn **React, check out the [React documentation](https://reactjs.org/docs/getting-started.html).**
 
 
 ## TECHNOLOGIES USED:
@@ -50,9 +50,35 @@ This Application allows users to:
 
 - **The Logo** **was designed by photoshop** just as many ***images had to be redesigned to fit in to the application user expirience***.
 
-**2. [Javascript](https://www.adobe.com/products/photoshop.html)**
+**2. [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**
 
-- Source langage, set exact rules and specifications for the product
+- **Source langage**, set exact rules and specifications for the product.
+
+**3. [Axios](https://www.freecodecamp.org/news/how-to-use-axios-with-react/#what-is-axios)**
+
+- **Handles REST API calls** to **backend** and **returns JSON** response to **frontend.**
+
+**4. [Node Mailer](https://nodemailer.com/about/)**
+
+- **Node.js module** that **allows us** to **send emails.**
+
+**5. [Express](https://expressjs.com/)**
+
+- Created a **Node.js web server to handle HTTP requests.**
+
+**6. [Body Parser](https://www.npmjs.com/package/body-parser)**
+
+- Used to **process request payload to JSON.**
+
+**7. [Joi](https://www.npmjs.com/package/joi)**
+
+- Used to **validate payload schema**
+
+**8. [Cors](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)**
+
+- **Enabled cross site scripting.**
+
+
 
 
 
