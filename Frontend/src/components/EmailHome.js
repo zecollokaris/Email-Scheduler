@@ -72,22 +72,23 @@ class EmailHome extends React.Component {
 
                   <div className="Input-Container">
                     {/* Name Input Section */}
-                    <input className="Name-Input" type="email" placeholder="Name"/>
+                    <input className="Type-Input Name-Input" type="email" placeholder="Name"/>
                     {/* Email Input Section */}
-                    <input className="Email-Input" type="email" placeholder="Email" value={this.state.value} onChange={this.handleChange} />
+                    <input className="Type-Input Email-Input" id="EmailBox" type="email" placeholder="Email" value={this.state.value} onChange={this.handleChange} />
 
                     {/* Submit Btn */}
-                    <button className="SubmitBtn" type="submit" value="Submit">Submit</button>
+                    <button className="SubmitBtn" type="submit" value="Submit">Subscribe</button>
                   </div>
 
               </form>
 
               {/* SubTitle */}
-              <p className="Home-SubTitle">Your Daily Doze Of Mental Health Doctor</p>
+              <p className="Home-SubTitle">Your Daily Doze Of Mental Health Doctor!</p>
             </div>
 
           </div>
         </div>
+
       </div>
 
 

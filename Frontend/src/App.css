@@ -1,4 +1,6 @@
-
+.Email-Scheduler{
+  height: 90vh;
+}
 /* Cope Icon On Nav Bar */
 .Mailer-Icon {
   height: 70px;
@@ -25,90 +27,163 @@
 /* Nav Bar Section */
 .NavBar{
   border-bottom: 1px solid hsla(0,0%,64.7%,.3) !important;
+  height: 70px;
 }
 
 /* Form Section */
 .Form-Detail-Section{
   text-align: center;
+  padding-top: 30px;
 }
 
-
+/* Mobile Device */
 .CopePhone{
   height: 600px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+/* Clear floats after the columns */
+.Home-Row {
+  grid-template-columns: auto auto;
+  width: 100%;
+  margin: auto;
+}
+  
+/* Two Equal Columns That Float Next To Each Other */
+.Column-One {
+  float: left;
+  width: 50%;
+  background-image: url('/images/ColorGradient.jpg');
+  background-size: cover;
+  height: 90vh;
+}
+.Column-Two{
+  float: right;
+  width: 50%;
+  height: 90vh; 
+}
+
+/* Subscribe To Healthier Thoughts Title */
+.Home-Title{
+  font-family: 'Rubik Dirt', cursive;
+  font-size: 60px;
+}
+/* Daily Doze SubTitle */
+.Home-SubTitle{
+  font-family: 'Indie Flower', cursive;
+  margin-top: 20px;
+  font-size: 20px;
+}
+/* Enter Email Text */
+.EnterEmail-Text{
+  font-family: 'Jura', sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 19px;
+}
+.Cope-Sub-Icon{
+  margin-top: -20px;
+  width: 85px;
+  height: 75px;
+}
+.Input-Container{
+  display: grid;
+  place-items: center;
+}
+/* Name Input */
+.Name-Input{
+  font-family: 'Jura', sans-serif;
+  color: black;
+}
+/* Email Input Box */
+.Email-Input{
+  font-family: 'Jura', sans-serif;
+  color: black;
+  margin-top: 20px;
+}
+
+/* No Spam Text */
+.NoSpam-Text{
+  font-size: 14px;
+  font-family: 'Jura', sans-serif;
+}
+
+/* Email Input Section */
+.Type-Input {
+  background: #80008010;
+  border:1px solid rgba(12,170,246,0.5);
+  border-radius:.3rem;
+  font-size: 17px;
+  width: 300px;
+  padding:10px;
+  z-index:1;
+  transition:.5s;
+}
+
+/* Subscribe Button */
+.SubmitBtn{
+  border:none;
+  margin-top: 45px;
+  background-color:#80008023;
+  font-size:15px;
+  padding:7px 25px;
+  text-transform:capitalize;
+  font-family: 'Lexend', sans-serif;
+  cursor:pointer;
+  transform:all 0.3s;
+  position:relative;
+}
+.SubmitBtn:before{
+  content:"";
+  position :absolute;
+  width:24px;
+  height:24px;
+  top:-4px;
+  left:-4px;
+  border-top:2px solid #80008077;
+  border-left:2px solid #80008077;
+  transition:all 0.25s;
+}
+.SubmitBtn:hover:before ,.SubmitBtn:hover:after{
+  width:104%;
+  height:110%;
+}
+.SubmitBtn:after{
+  content:"";
+  position :absolute;
+  width:24px;
+  height:24px;
+  bottom:-4px;
+  right:-4px;
+  border-bottom:2px solid #80008077;
+  border-right:2px solid #80008077;
+  transition:all 0.30s;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1000px) {
+
+  .Home-Title{
+    font-size: 50px;
+  }
 }
 
 
-
-  
-  /* Create two equal columns that floats next to each other */
-  .Column-One {
-    float: left;
-    width: 50%;
-    background-color: red;
-    /* height: 100vh;  */
+/* MEDIA QUERIES */
+@media (max-width: 700px) {
+  .Column-One{
+    display: none;
   }
-
   .Column-Two{
-    float: right;
-    width: 50%;
-    /* height: 100vh;  */
-  }
-  
-  /* Clear floats after the columns */
-  .Home-Row {
-    grid-template-columns: auto auto;
     width: 100%;
-    margin: auto;
-
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
+}
 
-  /* Subscribe To Healthier Thoughts Title */
+/* MEDIA QUERIES */
+@media (max-width: 400px) {
   .Home-Title{
-    font-family: 'Rubik Dirt', cursive;
-    font-size: 60px;
+    font-size: 40px;
   }
-  /* Daily Doze SubTitle */
-  .Home-SubTitle{
-    font-family: 'Indie Flower', cursive;
-    margin-top: 20px;
-    font-size: 20px;
-  }
-  /* Enter Email Text */
-  .EnterEmail-Text{
-    font-family: 'Jura', sans-serif;
-    font-weight: 600;
-    margin-top: 10px;
-    font-size: 19px;
-  }
-  .Cope-Sub-Icon{
-    margin-top: -20px;
-    width: 85px;
-    height: 75px;
-  }
-  .Input-Container{
-    display: grid;
-    place-items: center;
-  }
-  /* Name Input */
-  .Name-Input{
-    font-family: 'Jura', sans-serif;
-    color: #800080;
-  }
-  /* Email Input Box */
-  .Email-Input{
-    font-family: 'Jura', sans-serif;
-    color: #800080;
-    margin-top: 20px;
-  }
-  .SubmitBtn{
-    margin-top: 20px;
-  }
-  /* No Spam Text */
-  .NoSpam-Text{
-    font-size: 14px;
-    font-family: 'Jura', sans-serif;
-  }
+}
