@@ -157,5 +157,5 @@ The page will reload when you make changes, You may also see any lint errors in 
 **2.5 Fill Input Form With Valid Details & Submit To Receive Email**
 
 <p align="center">
-<img align="left" width="500" src="Spec.md/InputBox.png" alt="Cryptobyte logo" />
+<img align="left" width="550" src="Spec.md/InputBox.png" alt="Cryptobyte logo" />
 <p>
