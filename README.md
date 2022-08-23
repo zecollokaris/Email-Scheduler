@@ -163,5 +163,5 @@ The page will reload when you make changes, You may also see any lint errors in 
 **2.6 Email OutPut Example (Sample)**
 
 <p align="center">
-<img align="center" width="700" height="350" src="Spec.md/EmailSampe.png" alt="Cryptobyte logo" />
+<img align="center" width="800" src="Spec.md/EmailSampe.png" alt="Cryptobyte logo" />
 <p>
