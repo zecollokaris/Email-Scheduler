@@ -124,7 +124,7 @@ npm install
 npm run start
 ```
 
-**:confetti_ball: DONE! The Application (Backend) Serves On PORT 8080 :confetti_ball:**
+**:tada: DONE! The Application (Backend) Serves On PORT 8080 :tada:**
 
 
 
