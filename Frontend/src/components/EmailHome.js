@@ -1,28 +1,33 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-import axios from 'axios';
+import axios from 'axios'; // Handles REST API calls to backend and retruns JSOM respone to fronted
 
 
 class EmailHome extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {value: ''};
+    this.state = {email: '', name: ''};
 
-    this.handleChange = this.handleChange.bind(this);
+    this.handleEmailChange = this.handleEmailChange.bind(this);
+    this.handleNameChange = this.handleNameChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleChange(event) {
-    this.setState({value: event.target.value});
+  handleEmailChange(event) {
+    this.setState({email: event.target.value});
+  }
+
+  handleNameChange(event) {
+    this.setState({name: event.target.value});
   }
 
   async handleSubmit(event) {
-    // alert('A name was submitted: ' + this.state.value);
-    // event.preventDefault();
+    event.preventDefault();
 
     const user = {
-      email: this.state.value
+      email: this.state.email,
+      name: this.state.name
     }
 
     try {
@@ -31,8 +36,8 @@ class EmailHome extends React.Component {
         url: "http://localhost:8080/user",
         data: user
       });
-      // set alert
-    } catch(err) {
+      // alert('A name was submitted: ' + this.state.value);
+  } catch(err) {
       console.error(err);
     }
   }
@@ -72,9 +77,9 @@ class EmailHome extends React.Component {
 
                   <div className="Input-Container">
                     {/* Name Input Section */}
-                    <input className="Type-Input Name-Input" type="email" placeholder="Name"/>
+                    <input className="Type-Input Name-Input" type="text" placeholder="Name" value={this.state.name} onChange={this.handleNameChange}/>
                     {/* Email Input Section */}
-                    <input className="Type-Input Email-Input" id="EmailBox" type="email" placeholder="Email" value={this.state.value} onChange={this.handleChange} />
+                    <input className="Type-Input Email-Input" id="EmailBox" type="email" placeholder="Email" value={this.state.email} onChange={this.handleEmailChange} />
 
                     {/* Submit Btn */}
                     <button className="SubmitBtn" type="submit" value="Submit">Subscribe</button>

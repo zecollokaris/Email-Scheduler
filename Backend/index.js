@@ -1,10 +1,10 @@
-const express = require('express');
+const express = require('express'); // Create a node js web server to handle HTTP requests
 
-const bodyParser = require("body-parser");
-const Joi = require('joi');
+const bodyParser = require("body-parser"); // Parse request payload to JSON
+const Joi = require('joi'); // Validate payload schema
 
-const nodemailer = require('nodemailer');
-const cors = require('cors')
+const nodemailer = require('nodemailer'); // Allows us to send emails
+const cors = require('cors')// Enable cross site scripting
 
 const SENDER = "copemailer@gmail.com";
 
@@ -31,16 +31,55 @@ app.use(bodyParser.json());
 const users = [];
 
 const messages = [
-    "This is message 1 😊 Welcome",
-    "This is message 2",
-    "This is message 3",
-    "This is message 4",
-    "This is message 5",
-    "This is message 6",
-    "This is message 7",
-    "This is message 8",
-    "This is message 9",
-    "This is message 10",
+    `🎊 Hello 🎊
+    \n “You are the one thing in this world, above all other things, that you must never give up."
+    \n Sincerly,
+    \n Cope Mailer 😊`,
+
+    `🎊 Hello 🎊
+    \n “I would say what others have said: It gets better. One day, you’ll find your tribe."
+    \n Sincerly,
+    \n Cope Mailer 😊`,
+
+    `🎊 Hello 🎊
+    \n “My dark days made me stronger. Or maybe I already was strong, and they made me prove it.”
+    \n Sincerly,
+    \n Cope Mailer 😊`,
+
+    `🎊 Hello 🎊
+    \n “You don’t have to be positive all the time. It’s perfectly okay to feel sad."
+    \n Sincerly,
+    \n Cope Mailer 😊`,
+
+    `🎊 Hello 🎊
+    \n “This feeling will pass. The fear is real but the danger is not.”
+    \n Sincerly,
+    \n Cope Mailer 😊`,
+
+    `🎊 Hello 🎊
+    \n “Your present circumstances don’t determine where you go."
+    \n Sincerly,
+    \n Cope Mailer 😊`,
+
+    `🎊 Hello 🎊
+    \n “Tough times never last, but tough people do!”
+    \n Sincerly,
+    \n Cope Mailer 😊`,
+
+    `🎊 Hello 🎊
+    \n “I keep moving ahead, as always, knowing deep down inside that I am a good person and that I am worthy of a good life.”
+    \n Sincerly,
+    \n Cope Mailer 😊`,
+
+    `🎊 Hello 🎊
+    \n “Happiness can be found even in the darkest of times, if one only remembers to turn on the light.”
+    \n Sincerly,
+    \n Cope Mailer 😊`,
+
+    `🎊 Hello 🎊
+    \n “In the middle of winter I at last discovered that there was in me an invincible summer.”
+    \n Sincerly,
+    \n Cope Mailer 😊`,
 ];
 
 router.post("/user", (request, response) => {
@@ -48,6 +87,7 @@ router.post("/user", (request, response) => {
 
         const schema = Joi.object({
             id: Joi.number().required(),
+            name: Joi.string().required(),
             email: Joi.string().email().required(),
         })
 
@@ -64,7 +104,7 @@ router.post("/user", (request, response) => {
 
         sendEmail(user);
     }
-    response.status(201).send(request.body);
+    response.status(201).send(request.body).end();
 });
 
 
@@ -93,7 +133,7 @@ async function sendEmail(user) {
                     resolve(user);
                 }
                 currentIndex++;
-            }, 1000);
+            }, 6000);
         } catch (err) {
             reject(err);
         }
@@ -105,7 +145,7 @@ async function sendEmailViaNodeMailer(user, message) {
     var mailOptions = {
         from: SENDER,
         to: user.email,
-        subject: `10 Minute Dose Of Mental Health to user ${user.id}`,
+        subject: `10 Minute Dose Of Mental Health For ${user.name}`,
         text: message
     };
 
