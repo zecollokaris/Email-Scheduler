@@ -118,7 +118,7 @@ cd Backend
 npm install
 ```
 
-**1.3 Start the server**
+**1.3 Run the app in the development mode.**
 
 ```bash
 npm run start
@@ -127,22 +127,31 @@ npm run start
 **:tada: DONE! The Application (Backend) Serves On PORT 8080 :tada:**
 
 
-
-
 ### 2. [Frontend (React.js Application)](https://github.com/zecollokaris/Email-Scheduler/tree/master/Frontend)
 
+**2.1 Navigate To Frontend Directory**
+
+```bash
+cd Frontend
+```
+
+**2.2 Install all modules that are listed on package.json file and their dependencies**
+
+```bash
+npm install
+```
+
+**2.3 Run the app in the development mode.**
+
+```bash
+npm start
+```
+
+**2.4 Browser View**
+
+The page will reload when you make changes, You may also see any lint errors in the console.
+
+**:tada: DONE! The Application (Frontend) Serves On http://localhost:3000 in your browser :tada:**
 
 
-
-
-
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**2.5 Fill Input Form With Valid Details To Receive Email**
