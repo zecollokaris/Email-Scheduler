@@ -1,8 +1,61 @@
-# Getting Started with Create React App
+<p align="center">
+<img align="centre" width="150" src="Spec.md/CopeMailerIcon.png" alt="Cryptobyte logo" />
+<p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# COPE MAILER :mailbox:
 
-## Available Scripts
+
+## DESCRIPTION
+
+This is an email scheduler that registers new users (with their email adress) and sends random scheduled messages to their mail box.
+
+## FEATURES
+
+This Application allows users to:
+
+- User can **Register** via ***valid email adress***.
+
+- User can **receive randomized messages** in their **inbox**.
+
+- User only **receives 10 messages** ***never the same message twice.***
+
+- Messages are received **only at the end of every minute** ***never the same message twice.***
+
+
+## PRE-REQUISITES.
+
+### **A Couple Of Things To Get You Started**
+
+**1. Ensure you have [Node.js](https://nodejs.org/en/download/) and [Node Package Manager](https://nodejs.org/en/download/) installed.**
+
+- **Node.js** is an open-source, cross-platform, back-end JavaScript runtime environment that runs on a JavaScript Engine and executes JavaScript code outside a web browser, which was designed to build scalable network applications.
+
+- **Node Package Manager** is the package manager for the Node JavaScript platform. It puts modules in place so that node can find them, and manages dependency conflicts intelligently. Most commonly, it is used to publish, discover, install, and develop node programs.
+
+
+**2. This project was bootstrapped with [React](https://github.com/facebook/create-react-app).**
+
+- **React** is a free and open-source front-end JavaScript library for building user interfaces based on UI components.
+
+- To learn React, check out the [React documentation](https://reactjs.org/docs/getting-started.html).
+
+
+## TECHNOLOGIES USED:
+
+**1. [Adobe Photoshop](https://www.adobe.com/products/photoshop.html)**
+
+- ***Photoshop*** is a **photo editing software**.
+
+- Photoshop was really useful in ***creating*** and ***enhancing photos***.
+
+- **The Logo** **was designed by photoshop** just as many ***images had to be redesigned to fit in to the application user expirience***.
+
+**2. [Javascript](https://www.adobe.com/products/photoshop.html)**
+
+- Source langage, set exact rules and specifications for the product
+
+
+
 
 In the project directory, you can run:
 
@@ -13,58 +66,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
