@@ -182,8 +182,19 @@
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 400px) {
+@media (max-width: 350px) {
   .Home-Title{
     font-size: 40px;
+  }
+  /* Enter Email Text */
+  .EnterEmail-Text{
+    font-size: 16px;
+  }
+  .NoSpam-Text{
+    font-size: 13px;
+  }
+  /* Email Input Section */
+  .Type-Input {
+    width: 230px;
   }
 }
