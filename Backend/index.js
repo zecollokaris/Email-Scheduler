@@ -133,7 +133,7 @@ async function sendEmail(user) {
                     resolve(user);
                 }
                 currentIndex++;
-            }, 6000);
+            }, 60000);
         } catch (err) {
             reject(err);
         }
