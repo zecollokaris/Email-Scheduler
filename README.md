@@ -154,4 +154,8 @@ The page will reload when you make changes, You may also see any lint errors in 
 **:tada: DONE! The Application (Frontend) Serves On http://localhost:3000 in your browser :tada:**
 
 
-**2.5 Fill Input Form With Valid Details To Receive Email**
+**2.5 Fill Input Form With Valid Details & Submit To Receive Email**
+
+<p align="center">
+<img align="left" width="250" src="Spec.md/InputBox.png" alt="Cryptobyte logo" />
+<p>
