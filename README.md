@@ -159,3 +159,9 @@ The page will reload when you make changes, You may also see any lint errors in 
 <p align="center">
 <img align="center" width="600" src="Spec.md/InputOx.png" alt="Cryptobyte logo" />
 <p>
+
+**2.6 Email OutPut Example (Sample)**
+
+<p align="center">
+<img align="center" width="600" src="Spec.md/EmailSamp.png" alt="Cryptobyte logo" />
+<p>
