@@ -79,6 +79,60 @@ This Application allows users to:
 - **Enabled cross site scripting.**
 
 
+## **HOW TO SETUP & INSTALL**
+
+1. You will need **Internet connection**.
+
+2. You need to get into the **[Email-Scheduler Repository](https://github.com/zecollokaris/Email-Scheduler)**.
+
+3. From there you can access **Cope Mailer**.
+
+4. **[Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)** the project.
+
+5. **Navigate to current working directory into project folder** (cd into project).
+
+### **A Couple Of Things To Get You Started**
+
+**[The repository is divided into two major directories that need proper notice.](https://github.com/zecollokaris/Email-Scheduler)**
+
+1. [Backend (Node.js API)](https://github.com/zecollokaris/Email-Scheduler/tree/master/Backend)
+2. [Frontend (React.js Application)](https://github.com/zecollokaris/Email-Scheduler/tree/master/Frontend)
+
+**Each of the servers is run independently after ensuring you have noted the technologies used.**
+
+## **RUN SETUP**
+
+### **Simply follow the instructions to run application**
+
+### 1. [Backend (Node.js API)](https://github.com/zecollokaris/Email-Scheduler/tree/master/Backend)
+
+**1.1 Navigate To Backend Directory**
+
+```bash
+cd Backend
+```
+
+**1.2 Install all modules that are listed on package.json file and their dependencies**
+
+```bash
+npm install
+```
+
+**1.3 Start the server**
+
+```bash
+npm run start
+```
+
+**:confetti_ball: DONE! The Application (Backend) Serves On PORT 8080 :confetti_ball:**
+
+
+
+
+### 2. [Frontend (React.js Application)](https://github.com/zecollokaris/Email-Scheduler/tree/master/Frontend)
+
+
+
 
 
 
