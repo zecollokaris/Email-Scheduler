@@ -7,9 +7,7 @@
 ## DESIGN
 
 <p align="center">
-<img align="left" width="250" src="Spec.md/TabletImage.png" alt="Navigation Drawer" />
-<img align="centre" width="300" src="Spec.md/DesktopImage.png" alt="Home page" />
-<img align="right" width="250" src="Spec.md/MobileImage.png" alt="Home page 2" />
+<img align="center" width="600" src="Spec.md/DesktopImage.png" alt="Cryptobyte logo" />
 <p>
 
 ## DESCRIPTION
